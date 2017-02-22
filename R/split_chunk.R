@@ -15,19 +15,23 @@
 #' Press Apply.
 #' Press Execute.
 splitChunk <- function() {
+
+  # Insert text that splits the code chunk in two
   rstudioapi::insertText("```\n\n```{r}")
 
+  # Get document context
+  # to get cursor position
   adc <- rstudioapi::getActiveDocumentContext()
 
   # Get cursor position
   start <- adc$selection[1][[1]]$range$start
 
   # Find coordinates for position
-  # between chunks
+  # in-between chunks
   start['row'] <- start['row'] -1
   start['column'] <- 1
 
-  # Set cursor in between chunks
+  # Set cursor in-between chunks
   rstudioapi::setCursorPosition(c(start['row'], start['column']), id = NULL)
 
 
