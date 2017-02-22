@@ -7,7 +7,7 @@
 splitChunk()
 }
 \value{
-Inserts ``` \\n\\n ```\{r\}
+Inserts ```\\n\\n```\{r\}
 }
 \description{
 Addin for RStudio for splitting code chunks in R Markdown.

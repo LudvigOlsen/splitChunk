@@ -5,7 +5,7 @@
 #' See \code{details} for setting up key command.
 #' @author Ludvig Renbo Olsen, \email{r-pkgs@ludvigolsen.dk}
 #' @export
-#' @return Inserts ``` \\n\\n ```\{r\}
+#' @return Inserts ```\\n\\n```\{r\}
 #' @details How to set up key command in RStudio:
 #'
 #' After installing package.
