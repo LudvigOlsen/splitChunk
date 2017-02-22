@@ -1,4 +1,4 @@
 Name: Split Code Chunk
 Description: Inserts ```\n\n```{r}
-Binding: insertSplitChunk
+Binding: splitChunk
 Interactive: false
