@@ -2,5 +2,5 @@
 
 * Created package
 
-* Cursor now positioned in-between chunks
+* Cursor now positioned in-between chunks by request of *Malte Lau Petersen*
 
