@@ -1,0 +1,14 @@
+Package: splitChunk
+Title: RStudio Addin for splitting rmarkdown chunk
+Version: 0.0.0.9000
+Date: 2017-02-22
+Authors@R: person("Ludvig Renbo", "Olsen", email = "r-pkgs@ludvigolsen.dk", role = c("aut", "cre"))
+Description: Set up key command to split rmarkdown chunk in RStudio.
+Depends:
+    R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    rstudioapi (>= 0.5)
+RoxygenNote: 5.0.1
