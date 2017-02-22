@@ -7,6 +7,12 @@
 #' @export
 #' @return Inserts ``` \\n\\n ```\{r\}
 #' @details How to set up key command:
+#' In RStudio:
+#' Go to Tools >> Addins >> Browse Addins >> Keyboard Shortcuts.
+#' Find "Split Code Chunk" and press its field under Shortcut.
+#' Press desired key command.
+#' Press Apply
+#' Press Execute
 splitChunk <- function() {
   rstudioapi::insertText("```\n\n```{r}")
 }
