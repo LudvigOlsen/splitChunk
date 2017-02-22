@@ -33,7 +33,7 @@ Use
 ---
 
 -   Install package.
--   Add keycommand (e.g. mac: cmd-alt-shift-i, win: ctrl-alt-shift-i)
+-   Add key command (e.g. mac: cmd-alt-shift-i, win: ctrl-alt-shift-i)
     by going to *Tools* &gt; *Addins* &gt; *Browse Addins* &gt; *Keyboard Shortcuts*.
-    Find **Split Code Chunk** and press its field under *Shortcut*. Press desired keycommand.
--   Press chosen keycommand inside an rmarkdown code chunk
+    Find **Split Code Chunk** and press its field under *Shortcut*. Press desired key command.
+-   Press chosen key command inside an rmarkdown code chunk
