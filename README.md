@@ -3,7 +3,8 @@
 splitChunk
 ==========
 
-R package: Split RMarkdown code chunks addin for RStudio
+R package: Split R Markdown code chunks. Addin for RStudio.
+
 Inserts:
 
 > ´´´
@@ -14,7 +15,8 @@ By Ludvig R. Olsen
 Cognitive Science, Aarhus University
 Started in Feb. 2017
 
-Contact at: <r-pkgs@ludvigolsen.dk>
+Contact at:
+<r-pkgs@ludvigolsen.dk>
 
 Main functions:
 
