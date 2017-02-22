@@ -7,7 +7,7 @@
 splitChunk()
 }
 \value{
-Inserts ```\\n\\n```\{r\}
+Inserts \code{```\\n\\n```\{r\}}
 }
 \description{
 Addin for RStudio for splitting code chunks in R Markdown.
@@ -18,11 +18,17 @@ See \code{details} for setting up key command.
 How to set up key command in RStudio:
 
 After installing package.
-Go to Tools >> Addins >> Browse Addins >> Keyboard Shortcuts.
-Find "Split Code Chunk" and press its field under Shortcut.
+Go to:
+
+\code{Tools} >> \code{Addins} >> \code{Browse Addins} >> \code{Keyboard Shortcuts}.
+
+Find \code{"Split Code Chunk"} and press its field under \code{Shortcut}.
+
 Press desired key command.
-Press Apply.
-Press Execute.
+
+Press \code{Apply}.
+
+Press \code{Execute}.
 }
 \author{
 Ludvig Renbo Olsen, \email{r-pkgs@ludvigolsen.dk}

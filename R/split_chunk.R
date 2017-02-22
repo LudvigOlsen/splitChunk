@@ -5,15 +5,21 @@
 #' See \code{details} for setting up key command.
 #' @author Ludvig Renbo Olsen, \email{r-pkgs@ludvigolsen.dk}
 #' @export
-#' @return Inserts ```\\n\\n```\{r\}
+#' @return Inserts \code{```\\n\\n```\{r\}}
 #' @details How to set up key command in RStudio:
 #'
 #' After installing package.
-#' Go to Tools >> Addins >> Browse Addins >> Keyboard Shortcuts.
-#' Find "Split Code Chunk" and press its field under Shortcut.
+#' Go to:
+#'
+#' \code{Tools} >> \code{Addins} >> \code{Browse Addins} >> \code{Keyboard Shortcuts}.
+#'
+#' Find \code{"Split Code Chunk"} and press its field under \code{Shortcut}.
+#'
 #' Press desired key command.
-#' Press Apply.
-#' Press Execute.
+#'
+#' Press \code{Apply}.
+#'
+#' Press \code{Execute}.
 splitChunk <- function() {
 
   # Insert text that splits the code chunk in two
