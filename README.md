@@ -4,6 +4,11 @@ splitChunk
 ==========
 
 R package: Split RMarkdown code chunks addin for RStudio
+Inserts:
+
+> ´´´
+>
+> ´´´{r}
 
 By Ludvig R. Olsen
 Cognitive Science, Aarhus University
@@ -28,5 +33,6 @@ Use
 
 -   Install package.
 -   Add keycommand (e.g. mac: cmd-alt-shift-i, win: ctrl-alt-shift-i)
-    by going to *Tools* &gt; *Addins* &gt; *Browse Addins* &gt; *Keyboard Shortcuts*. Find **Split Code Chunk** and press its field under *Shortcut*. Press desired keycommand.
+    by going to *Tools* &gt; *Addins* &gt; *Browse Addins* &gt; *Keyboard Shortcuts*.
+    Find **Split Code Chunk** and press its field under *Shortcut*. Press desired keycommand.
 -   Press chosen keycommand inside an rmarkdown code chunk

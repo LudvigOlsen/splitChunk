@@ -14,7 +14,14 @@ knitr::opts_chunk$set(
 
 # splitChunk
 
-R package: Split RMarkdown code chunks addin for RStudio
+R package: Split RMarkdown code chunks addin for RStudio  
+Inserts: 
+
+> 
+> ´´´
+> 
+> ´´´{r}
+> 
 
 By Ludvig R. Olsen  
 Cognitive Science, Aarhus University  
@@ -37,7 +44,7 @@ Development version:
 
 * Install package.
 * Add keycommand (e.g. mac: cmd-alt-shift-i, win: ctrl-alt-shift-i)   
-by going to *Tools* > *Addins* > *Browse Addins* > *Keyboard Shortcuts*.
+by going to *Tools* > *Addins* > *Browse Addins* > *Keyboard Shortcuts*.  
 Find **Split Code Chunk** and press its field under *Shortcut*. Press desired keycommand.  
 * Press chosen keycommand inside an rmarkdown code chunk  
 
