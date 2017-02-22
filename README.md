@@ -26,6 +26,7 @@ Installation
 Development version:
 
 > install.packages("devtools")
+>
 > devtools::install\_github("LudvigOlsen/splitChunk")
 
 Use

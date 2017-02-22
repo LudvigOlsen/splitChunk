@@ -37,7 +37,8 @@ Main functions:
 ## Installation  
 Development version:  
 
-> install.packages("devtools")  
+> install.packages("devtools")
+>
 > devtools::install_github("LudvigOlsen/splitChunk")  
 
 ## Use
