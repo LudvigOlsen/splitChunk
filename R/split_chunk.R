@@ -32,13 +32,8 @@ splitChunk <- function() {
   # Get cursor position
   start <- adc$selection[1][[1]]$range$start
 
-  # Find coordinates for position
-  # in-between chunks
-  start['row'] <- start['row'] -1
-  start['column'] <- 1
-
   # Set cursor in-between chunks
-  rstudioapi::setCursorPosition(c(start['row'], start['column']), id = NULL)
+  rstudioapi::setCursorPosition(c(start['row'] -1, 1), id = NULL)
 
 
 }
