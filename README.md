@@ -35,7 +35,10 @@ Use
 ---
 
 -   Install package.
--   Add key command (e.g. mac: cmd-alt-shift-i, win: ctrl-alt-shift-i)
-    by going to *Tools* &gt; *Addins* &gt; *Browse Addins* &gt; *Keyboard Shortcuts*.
-    Find **Split Code Chunk** and press its field under *Shortcut*. Press desired key command.
--   Press chosen key command inside an rmarkdown code chunk
+-   Add key command (e.g. mac: cmd-alt-shift-i, win: ctrl-alt-shift-i) by going to:
+    -   *Tools* &gt; *Addins* &gt; *Browse Addins* &gt; *Keyboard Shortcuts*.
+    -   Find **Split Code Chunk** and press its field under *Shortcut*.
+    -   Press desired key command.
+    -   Press *Apply*.
+    -   Press *Execute*.
+-   Press chosen key command inside an R Markdown code chunk.
