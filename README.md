@@ -11,8 +11,8 @@ Inserts:
 >
 > ´´´{r}
 
-By Ludvig R. Olsen
-Cognitive Science, Aarhus University
+By Ludvig R. Olsen,
+Cognitive Science, Aarhus University,
 Started in Feb. 2017
 
 Contact at:
